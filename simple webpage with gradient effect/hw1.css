@@ -147,10 +147,11 @@
             font-size: 90px;
             background: repeating-radial-gradient(circle at center center, red 0%, yellow 7.14%, rgb(0, 255, 0) 14.28%, rgb(43, 68, 11)21.4%, rgba(255, 254, 120, 1)35%, rgb(43, 68, 11)45%);
             background-size: 600vw 600vw;
-            animation: slide 15s linear infinite forwards;
-            -webkit-animation: slide 15s linear infinite forwards;
+            animation: slide 6s linear infinite forwards;
+            -webkit-animation: slide 6s linear infinite forwards;
             -webkit-text-fill-color: transparent;
             -webkit-background-clip: text;
+            cursor: pointer;
         }
         
         @keyframes slide {
@@ -162,5 +163,45 @@
             }
             100% {
                 background-position-x: 600vw;
+            }
+        }
+        
+        .rainbow-text:hover {
+            animation: rainbow-text-animation 0.5s ease forwards;
+        }
+        /* Move the background and make it larger. */
+        /* Animation shown when hovering over the text. */
+        
+        @keyframes rainbow-text-animation {
+            0% {
+                background-position-y: 0%;
+            }
+            50% {
+                background-position-x: 50%;
+            }
+            75% {
+                background-position-x: 70%;
+            }
+            100% {
+                background-size: 57%;
+                background-position-y: 100%;
+            }
+        }
+        /* Move the background and make it smaller. */
+        /* Animation shown when entering the page and after the hover animation. */
+        
+        @keyframes rainbow-text-animation-rev {
+            0% {
+                background-position-y: 100%;
+            }
+            50% {
+                background-position-x: 50%;
+            }
+            75% {
+                background-position-x: 30%;
+            }
+            100% {
+                background-size: 300%;
+                background-position-y: 0%;
             }
         }
