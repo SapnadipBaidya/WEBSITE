@@ -1,0 +1,111 @@
+        .top_nav {
+            text-align: center;
+            display: inline-block;
+            font-weight: bold;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+            border: 3px solid rgb(7, 132, 170);
+        }
+        
+        .top_nav a:hover {
+            color: rgb(7, 125, 204);
+        }
+        
+        .top_nav a:active {
+            color: rgb(10, 128, 46);
+        }
+        
+        .top_nav a:link {
+            color: rgb(15, 161, 161);
+        }
+        
+        .top_nav a:visited {
+            color: rgb(12, 129, 38);
+        }
+        
+        header {
+            color: rgb(20, 133, 148);
+            text-align: center;
+            background-color: #286d3191;
+            background-size: auto;
+            display: block;
+            border-radius: 19px;
+            -webkit-border-radius: 19px;
+            -moz-border-radius: 19px;
+            -ms-border-radius: 19px;
+            -o-border-radius: 19px;
+            margin: 0px 400px 0px 400px;
+        }
+        
+        .topic-1:hover {
+            color: rgb(105, 13, 10);
+        }
+        
+        .topic-1 {
+            color: rgb(4, 14, 26);
+            text-align: center;
+            background: radial-gradient(circle at center center, #a53411, #8fa126, #306418, #c0b515);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            margin: 40px 400px 40px 400px;
+            border-radius: 6px;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            -ms-border-radius: 6px;
+            -o-border-radius: 6px;
+            opacity: 69%;
+        }
+        
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        
+        .topic-2:hover {
+            color: rgb(92, 7, 28);
+        }
+        
+        .topic-2 {
+            margin: 0px 400px 0px 400px;
+            border-radius: 9px;
+            color: rgb(5, 25, 34);
+            text-align: center;
+            background: radial-gradient(circle at center center, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            -webkit-border-radius: 9px;
+            -moz-border-radius: 9px;
+            -ms-border-radius: 9px;
+            -o-border-radius: 9px;
+            opacity: 69%;
+        }
+        
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        
+        body {
+            background-color: #207a4d;
+            background-image: radial-gradient(circle at center center, #45585a, #535755), repeating-radial-gradient(circle at center center, #45585a, #45585a, 27px, transparent 54px, transparent 27px);
+            background-blend-mode: multiply;
+        }
