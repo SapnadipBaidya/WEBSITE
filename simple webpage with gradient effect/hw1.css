@@ -1,207 +1,260 @@
-        .top_nav {
-            text-align: center;
-            display: inline-block;
-            font-weight: bold;
-            border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -moz-border-radius: 5px;
-            -ms-border-radius: 5px;
-            -o-border-radius: 5px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            text-align: center;
-            border: 3px solid rgb(7, 132, 170);
-        }
-        
-        background-image: linear-gradient(45deg, #f3ec78, #af4261);
-        .top_nav a:hover {
-            color: rgb(7, 125, 204);
-        }
-        
-        .top_nav a:active {
-            color: rgb(10, 128, 46);
-        }
-        
-        .top_nav a:link {
-            color: rgb(15, 161, 161);
-        }
-        
-        .top_nav a:visited {
-            color: rgb(12, 129, 38);
-        }
-        
-        header {
-            text-align: center;
-            background-color: #86880fbe;
-            background-size: auto;
-            display: block;
-            border-radius: 19px;
-            -webkit-border-radius: 19px;
-            -moz-border-radius: 19px;
-            -ms-border-radius: 19px;
-            -o-border-radius: 19px;
-            margin: 0px 400px 0px 400px;
-            background: linear-gradient(-100deg, #a53411, #8fa126, #86880fbe);
-            background-size: 400% 400%;
-            animation: gradient 5s ease infinite;
-            margin: 40px 400px 40px 400px;
-            border-radius: 6px;
-            -webkit-border-radius: 6px;
-            -moz-border-radius: 6px;
-            -ms-border-radius: 6px;
-            -o-border-radius: 6px;
-            opacity: 69%;
-            -webkit-animation: gradient 5s ease infinite;
-        }
-        
-        @keyframes gradient {
-            0% {
-                background-position: 0% 50%;
-            }
-            50% {
-                background-position: 100% 50%;
-            }
-            100% {
-                background-position: 0% 50%;
-            }
-        }
-        
-        .topic-1:hover {
-            color: rgb(105, 13, 10);
-        }
-        
-        .topic-1 {
-            color: rgb(4, 14, 26);
-            text-align: center;
-            background: linear-gradient(100deg, #a53411, #8fa126, #306418, #c0b515);
-            background-size: 400% 400%;
-            animation: gradient 6s ease infinite;
-            margin: 40px 400px 40px 400px;
-            border-radius: 6px;
-            -webkit-border-radius: 6px;
-            -moz-border-radius: 6px;
-            -ms-border-radius: 6px;
-            -o-border-radius: 6px;
-            opacity: 69%;
-            -webkit-animation: gradient 6s ease infinite;
-        }
-        
-        @keyframes gradient {
-            0% {
-                background-position: 0% 50%;
-            }
-            50% {
-                background-position: 100% 50%;
-            }
-            100% {
-                background-position: 0% 50%;
-            }
-        }
-        
-        .topic-2:hover {
-            color: rgb(92, 7, 28);
-        }
-        
-        .topic-2 {
-            margin: 0px 400px 0px 400px;
-            border-radius: 9px;
-            color: rgb(5, 25, 34);
-            text-align: center;
-            background: radial-gradient(circle at center center, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-            background-size: 400% 400%;
-            animation: gradient 7s ease infinite;
-            -webkit-border-radius: 9px;
-            -moz-border-radius: 9px;
-            -ms-border-radius: 9px;
-            -o-border-radius: 9px;
-            opacity: 69%;
-            -webkit-animation: gradient 7s ease infinite;
-        }
-        
-        @keyframes gradient {
-            0% {
-                background-position: 0% 50%;
-            }
-            50% {
-                background-position: 100% 50%;
-            }
-            100% {
-                background-position: 0% 50%;
-            }
-        }
-        
-        body {
-            background-color: #207a4d;
-            background-image: radial-gradient(circle at center center, #45585a, #535755), repeating-radial-gradient(circle at center center, #45585a, #45585a, 27px, transparent 54px, transparent 27px);
-            background-blend-mode: multiply;
-        }
-        
-        .rainbow-text {
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-            font-weight: bold;
-            border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -moz-border-radius: 5px;
-            -ms-border-radius: 5px;
-            -o-border-radius: 5px;
-            font-size: 90px;
-            background: repeating-radial-gradient(circle at center center, red 0%, yellow 7.14%, rgb(0, 255, 0) 14.28%, rgb(43, 68, 11)21.4%, rgba(255, 254, 120, 1)35%, rgb(43, 68, 11)45%);
-            background-size: 600vw 600vw;
-            animation: slide 6s linear infinite forwards;
-            -webkit-animation: slide 6s linear infinite forwards;
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
-            cursor: pointer;
-        }
-        
-        @keyframes slide {
-            0% {
-                background-position-x: 0%;
-            }
-            50% {
-                background-position-x: 50%;
-            }
-            100% {
-                background-position-x: 600vw;
-            }
-        }
-        
-        .rainbow-text:hover {
-            animation: rainbow-text-animation 0.5s ease forwards;
-        }
-        /* Move the background and make it larger. */
-        /* Animation shown when hovering over the text. */
-        
-        @keyframes rainbow-text-animation {
-            0% {
-                background-position-y: 0%;
-            }
-            50% {
-                background-position-x: 50%;
-            }
-            75% {
-                background-position-x: 70%;
-            }
-            100% {
-                background-size: 57%;
-                background-position-y: 100%;
-            }
-        }
-        /* Move the background and make it smaller. */
-        /* Animation shown when entering the page and after the hover animation. */
-        
-        @keyframes rainbow-text-animation-rev {
-            0% {
-                background-position-y: 100%;
-            }
-            50% {
-                background-position-x: 50%;
-            }
-            75% {
-                background-position-x: 30%;
-            }
-            100% {
-                background-size: 300%;
-                background-position-y: 0%;
-            }
-        }
+.top_nav {
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border: 3px solid rgb(7, 132, 170);
+}
+
+background-image: linear-gradient(45deg, #f3ec78, #af4261);
+.top_nav a:hover {
+    color: rgb(7, 125, 204);
+}
+
+.top_nav a:active {
+    color: rgb(10, 128, 46);
+}
+
+.top_nav a:link {
+    color: rgb(15, 161, 161);
+}
+
+.top_nav a:visited {
+    color: rgb(12, 129, 38);
+}
+
+header {
+    text-align: center;
+    background-color: #86880fbe;
+    background-size: auto;
+    display: block;
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+    margin: 0px 400px 0px 400px;
+    background: linear-gradient(-100deg, #a53411, #8fa126, #86880fbe);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    margin: 40px 400px 40px 400px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    opacity: 69%;
+    -webkit-animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.topic-1:hover {
+    color: rgb(105, 13, 10);
+}
+
+.topic-1 {
+    color: rgb(4, 14, 26);
+    text-align: center;
+    background: linear-gradient(100deg, #a53411, #8fa126, #306418, #c0b515);
+    background-size: 400% 400%;
+    animation: gradient 6s ease infinite;
+    margin: 40px 400px 40px 400px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    opacity: 69%;
+    -webkit-animation: gradient 6s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.topic-2:hover {
+    color: rgb(92, 7, 28);
+}
+
+.topic-2 {
+    margin: 0px 400px 0px 400px;
+    border-radius: 9px;
+    color: rgb(5, 25, 34);
+    text-align: center;
+    background: radial-gradient(circle at center center, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 7s ease infinite;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    opacity: 69%;
+    -webkit-animation: gradient 7s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    background-color: #207a4d;
+    background-image: radial-gradient(circle at center center, #45585a, #535755), repeating-radial-gradient(circle at center center, #45585a, #45585a, 27px, transparent 54px, transparent 27px);
+    background-blend-mode: multiply;
+}
+
+.rainbow-text {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 90px;
+    background: repeating-linear-gradient(80deg, #CA4246 16.666%, #E16541 16.666%, #E16541 33.333%, #F18F43 33.333%, #F18F43 50%, #8B9862 50%, #8B9862 66.666%, #476098 66.666%, #476098 83.333%, #A7489B 83.333%);
+    background-size: 600vw 600vw;
+    animation: slide 16s linear infinite forwards;
+    -webkit-animation: slide 8s linear infinite forwards;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    cursor: pointer;
+}
+
+@keyframes slide {
+    0% {
+        background-position-x: 0%;
+    }
+    10% {
+        background-position-x: 10%;
+    }
+    30% {
+        background-position-x: 30%;
+    }
+    37% {
+        background-position-x: 40%%;
+    }
+    50% {
+        background-position-x: 50%;
+    }
+    80% {
+        background-position-x: 70%;
+    }
+    100% {
+        background-position-x: 600vw;
+    }
+}
+
+.rainbow-text:hover {
+    animation: rainbow-text-animation 0.5s ease forwards;
+}
+
+
+/* Move the background and make it larger. */
+
+
+/* Animation shown when hovering over the text. */
+
+@keyframes rainbow-text-animation {
+    0% {
+        background-size: 14.28%;
+        background-position: 0%;
+    }
+    10% {
+        background-size: 28%;
+        background-position: 10%;
+    }
+    30% {
+        background-size: 42%;
+        background-position: 30%;
+    }
+    37% {
+        background-size: 56%;
+        background-position: 40%%;
+    }
+    50% {
+        background-size: 70%;
+        background-position: 50%;
+    }
+    80% {
+        background-size: 84%;
+        background-position: 70%;
+    }
+    100% {
+        background-size: 100%;
+        background-position: 600vw;
+    }
+}
+
+
+/* Move the background and make it smaller. */
+
+
+/* Animation shown when entering the page and after the hover animation. */
+
+@keyframes rainbow-text-animation-rev {
+    0% {
+        background-size: 100%;
+        background-position: 0%;
+    }
+    10% {
+        background-size: 84%;
+        background-position: 10%;
+    }
+    30% {
+        background-size: 70%;
+        background-position: 30%;
+    }
+    37% {
+        background-size: 56%;
+        background-position: 40%%;
+    }
+    50% {
+        background-size: 42%;
+        background-position: 50%;
+    }
+    80% {
+        background-size: 28%;
+        background-position: 70%;
+    }
+    100% {
+        background-size: 19%;
+        background-position: 600vw;
+    }
+}
+
+
+}
